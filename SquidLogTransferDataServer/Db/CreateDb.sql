@@ -1,0 +1,20 @@
+﻿CREATE DATABASE AccessLog;
+GO
+
+USE AccessLog;
+GO
+
+CREATE TABLE Log(
+	Id INT IDENTITY,
+	Time VARCHAR(255) NULL,
+    Duration VARCHAR(255) NULL,
+    ClientAddress VARCHAR(255) NULL,
+    ResultCode VARCHAR(255) NULL,
+    Bytes VARCHAR(255) NULL,
+    RequestMethod VARCHAR(255) NULL,
+    Url VARCHAR(255) NULL,
+    Users VARCHAR(255) NULL,
+    HierarchyCode VARCHAR(255) NULL,
+    Type VARCHAR(255) NULL,
+	CONSTRAINT PK_Log PRIMARY KEY (Id)
+);

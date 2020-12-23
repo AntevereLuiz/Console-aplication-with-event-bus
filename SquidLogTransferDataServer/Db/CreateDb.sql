@@ -12,7 +12,7 @@ CREATE TABLE Log(
     ResultCode VARCHAR(255) NULL,
     Bytes VARCHAR(255) NULL,
     RequestMethod VARCHAR(255) NULL,
-    Url VARCHAR(255) NULL,
+    Url VARCHAR(500) NULL,
     Users VARCHAR(255) NULL,
     HierarchyCode VARCHAR(255) NULL,
     Type VARCHAR(255) NULL,

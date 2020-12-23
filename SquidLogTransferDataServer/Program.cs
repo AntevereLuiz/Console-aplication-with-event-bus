@@ -111,7 +111,7 @@ public class Program
 
     public static void SaveInDb(List<AccessLogObject> list)
     {
-        string connectionString = @"Data Source=.,7070;Database=AccessLog;User Id=sa;Password=sqlFATEC()_";
+        string connectionString = @"";
 
         try { 
             SqlConnection connection = new SqlConnection(connectionString);
